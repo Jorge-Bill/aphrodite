@@ -1,5 +1,5 @@
 import React from "react";
-import { Seo, InstaPosts } from "components";
+import { Seo, Navbar, Content, InstaPosts, FakeContent, Footer } from "components";
 
 function Home() {
   const meta = {
@@ -14,8 +14,12 @@ function Home() {
   return (
     <>
       <Seo site={meta} />
-      <p>Hello World!</p>
+      <Navbar title={process.env.REACT_APP_TITLE} />
+      <Content>
+        <FakeContent />
+      </Content>
       <InstaPosts />
+      <Footer />
     </>
   );
 }

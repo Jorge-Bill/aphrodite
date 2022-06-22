@@ -26,9 +26,8 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-
-
-  #app, #root { /* stylelint-disable-line */
+  #app, #root {
+    /* stylelint-disable-line */
     display: flex;
     flex-direction: column;
     height: 100%;
