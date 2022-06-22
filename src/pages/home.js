@@ -1,5 +1,5 @@
 import React from "react";
-import { Seo } from "components";
+import { Seo, InstaPosts } from "components";
 
 function Home() {
   const meta = {
@@ -15,6 +15,7 @@ function Home() {
     <>
       <Seo site={meta} />
       <p>Hello World!</p>
+      <InstaPosts />
     </>
   );
 }
