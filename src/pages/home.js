@@ -8,7 +8,7 @@ import {
   Footer,
 } from "components";
 
-import { Container, Header } from 'rsuite';
+import { Container, Header } from "rsuite";
 
 function Home() {
   const meta = {
@@ -23,7 +23,7 @@ function Home() {
   return (
     <>
       <Seo site={meta} />
-        <Container>
+      <Container>
         <Header>
           <Navigation title={process.env.REACT_APP_TITLE} />
         </Header>
