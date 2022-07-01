@@ -1,5 +1,14 @@
 import React from "react";
-import { Seo, Navbar, Content, InstaPosts, FakeContent, Footer } from "components";
+import {
+  Seo,
+  Navigation,
+  Content,
+  InstaPosts,
+  FakeContent,
+  Footer,
+} from "components";
+
+import { Container, Header } from 'rsuite';
 
 function Home() {
   const meta = {
@@ -14,12 +23,16 @@ function Home() {
   return (
     <>
       <Seo site={meta} />
-      <Navbar title={process.env.REACT_APP_TITLE} />
-      <Content>
-        <FakeContent />
-      </Content>
-      <InstaPosts />
-      <Footer />
+        <Container>
+        <Header>
+          <Navigation title={process.env.REACT_APP_TITLE} />
+        </Header>
+        <Content>
+          <FakeContent />
+        </Content>
+        <InstaPosts />
+        <Footer />
+      </Container>
     </>
   );
 }

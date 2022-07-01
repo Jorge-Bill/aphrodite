@@ -26,7 +26,7 @@
     "plop": "^3.1.0",
     "prettier": "^2.6.2",
     "prop-types": "^15.7.2",
-    "react-js-stickynav": "^1.0.2"
+    "rsuite": "^5.15.2"
   },
   "scripts": {
     "start": "react-scripts start",
