@@ -2,9 +2,10 @@ import React from "react";
 import {
   Seo,
   Navigation,
+  Slider,
   Content,
+  Games,
   InstaPosts,
-  FakeContent,
   Footer,
 } from "components";
 
@@ -26,9 +27,10 @@ function Home() {
       <Container>
         <Header>
           <Navigation title={process.env.REACT_APP_TITLE} />
+          <Slider />
         </Header>
         <Content>
-          <FakeContent />
+          <Games />
         </Content>
         <InstaPosts />
         <Footer />

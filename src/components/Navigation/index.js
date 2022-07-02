@@ -10,10 +10,8 @@ const Navigation = ({ title, ...props }) => {
     <S.Wrapper {...props}>
       <Navbar appearance="subtle">
         <Navbar.Brand href="#">{title}</Navbar.Brand>
-        <Nav>
-          <Nav.Item eventKey="1">Home</Nav.Item>
-        </Nav>
         <Nav pullRight>
+          <Nav.Item eventKey="1">Home</Nav.Item>
           <Nav.Item eventKey="2">Sobre mim</Nav.Item>
           <Nav.Menu title="Jogos">
             <Nav.Item eventKey="4">mandala</Nav.Item>
