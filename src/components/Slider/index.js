@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Carousel } from "rsuite";
 
 import image01 from "assets/images/image01.jpg";
@@ -18,11 +17,11 @@ const Slider = ({ ...props }) => (
       shape="bar"
       className="custom-slider"
     >
-      <img src={image01} height="300" />
-      <img src={image02} height="300" />
-      <img src={image03} height="300" />
-      <img src={image04} height="300" />
-      <img src={image05} height="300" />
+      <img src={image01} alt='' height="300" />
+      <img src={image02} alt='' height="300" />
+      <img src={image03} alt='' height="300" />
+      <img src={image04} alt='' height="300" />
+      <img src={image05} alt='' height="300" />
     </Carousel>
   </S.Wrapper>
 );
