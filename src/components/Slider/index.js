@@ -17,11 +17,11 @@ const Slider = ({ ...props }) => (
       shape="bar"
       className="custom-slider"
     >
-      <img src={image01} alt='' height="300" />
-      <img src={image02} alt='' height="300" />
-      <img src={image03} alt='' height="300" />
-      <img src={image04} alt='' height="300" />
-      <img src={image05} alt='' height="300" />
+      <img src={image01} alt="" height="300" />
+      <img src={image02} alt="" height="300" />
+      <img src={image03} alt="" height="300" />
+      <img src={image04} alt="" height="300" />
+      <img src={image05} alt="" height="300" />
     </Carousel>
   </S.Wrapper>
 );

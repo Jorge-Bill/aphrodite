@@ -4,6 +4,7 @@ import {
   Navigation,
   Slider,
   Content,
+  Faq,
   Games,
   InstaPosts,
   Footer,
@@ -33,6 +34,9 @@ function Home() {
           <Games />
         </Content>
         <InstaPosts />
+        <Content>
+          <Faq />
+        </Content>
         <Footer />
       </Container>
     </>
